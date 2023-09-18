@@ -10,7 +10,7 @@ npm install
 
 Edite o arquivo index.js, substituindo as valores das varíavels CA e METHOD para refletirem o cenário de teste
 
-```
+```javascript
 const CA = 'SERPRO'; //CERTISIGN|SERASA|SERPRO|SOLUTI
 const METHOD = 'GET'; //GET|POST
 ```
