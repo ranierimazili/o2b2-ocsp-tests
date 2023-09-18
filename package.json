@@ -1,0 +1,15 @@
+{
+  "name": "o2b2-ocsp-tests",
+  "version": "1.0.0",
+  "description": "Realiza o teste de OCSP das entidades certificadoras do Open Finance Brasil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ocsp": "github:ranierimazili/ocsp#master"
+  },
+  "type": "module"
+}
