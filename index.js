@@ -1,8 +1,8 @@
 import { readFileSync } from 'fs';
 import ocsp from 'ocsp';
 
-const CA = 'SERPRO'; //CERTISIGN|SERASA|SERPRO|SOLUTI
-const METHOD = 'GET'; //GET|POST
+const CA = 'SERASA'; //CERTISIGN|SERASA|SERPRO|SOLUTI
+const METHOD = 'POST'; //GET|POST
 
 let certPath, issuerPath;
 switch (CA) {

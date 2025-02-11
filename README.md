@@ -22,3 +22,10 @@ Para executar o teste, rode o comando abaixo:
 ```
 node index.js
 ```
+
+## Teste de certificado revogado
+Para testar um caso de certificado revogado, configure as variáveis CA e METHOD conforme abaixo:
+```javascript
+const CA = 'SERASA'; //CERTISIGN|SERASA|SERPRO|SOLUTI
+const METHOD = 'POST'; //GET|POST
+```
