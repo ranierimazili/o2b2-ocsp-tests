@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import ocsp from 'ocsp';
 
-const CA = 'SERASA'; //CERTISIGN|SERASA|SERPRO|SOLUTI
+const CA = 'VALID'; //CERTISIGN|SERASA|SERPRO|SOLUTI|VALID
 const METHOD = 'POST'; //GET|POST
 
 const certPath = `certs/${CA.toLowerCase()}_cert.cer`;
